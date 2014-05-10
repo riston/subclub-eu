@@ -1,8 +1,7 @@
 {
   "name": "subclub-eu",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Search and download subtitles from site called subclub.eu",
-  "main": "./bin",
   "preferGlobal": "true",
   "scripts": {
     "test": "npm test"
@@ -12,10 +11,11 @@
     "tool",
     "download"
   ],
-  "author": "Risto Novik",
+  "author": "Risto Novik <est.risto@gmail.com>",
   "license": "ISC",
+  "main": "./bin/cli.js",
   "bin": {
-    "subclub": "./bin/cli"
+    "subclub": "./bin/cli.js"
   },
   "dependencies": {
     "request": "~2.34.0",

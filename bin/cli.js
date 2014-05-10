@@ -24,7 +24,7 @@ function getSubsList (list) {
     return {
         type: "list",
         name: "sub",
-        message: "Select the specific movie",
+        message: "Select specific movie",
         choices: function () {
             var formatList = list.map(function (sub) {
                 return sub.title + ' @' + sub.year;
