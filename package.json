@@ -1,0 +1,30 @@
+{
+  "name": "subclub-eu",
+  "version": "0.0.0",
+  "description": "Search and download subtitles from site called subclub.eu",
+  "main": "./bin",
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "subtitles",
+    "tool",
+    "download"
+  ],
+  "author": "Risto Novik",
+  "license": "ISC",
+  "bin": {
+    "subclub": "./bin/cli"
+  },
+  "dependencies": {
+    "request": "~2.34.0",
+    "cheerio": "~0.15.0",
+    "lodash": "~2.4.1",
+    "inquirer": "~0.4.1",
+    "async": "~0.8.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}
