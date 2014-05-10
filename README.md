@@ -20,3 +20,7 @@ Fill the questions:
 [?] Select the download file: Avatar.2009.DVDRip.srt
 
 ```
+
+## Screenshot
+
+![Example](https://raw.githubusercontent.com/riston/subclub-eu/master/screens/cmd.png)
