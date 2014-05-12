@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "Search and download subtitles from site called subclub.eu",
   "preferGlobal": "true",
+  "repository": "https://github.com/riston/subclub-eu",
   "scripts": {
     "test": "npm test"
   },
